@@ -1,63 +1,49 @@
 # MusicNote Haven
 
-**MusicNote Haven** creates practical desktop software for musicians, keyboard players, MIDI collectors and digital music archivists.
+**MusicNote Haven** creates practical local desktop software for musicians, keyboard players, MIDI collectors and digital music archivists.
 
-Our first application is **MusicNote Haven MIDI Manager**: a desktop application for people who work with large `.mid`, `.midi` and `.kar` archives and want a safer way to index, search, review, listen to, organize and preserve their files.
+Our first application is **MusicNote Haven MIDI Manager**: a Windows and Linux desktop application for indexing, searching, reviewing, playing, organizing and preserving `.mid`, `.midi` and `.kar` collections.
 
-## MusicNote Haven MIDI Manager
+## Download MIDI Manager 0.3.0
 
-MIDI Manager is being built for real-world MIDI archive work:
+The **MusicNote Haven MIDI Manager 0.3.0 public preview is available now**.
 
-- large personal MIDI and karaoke MIDI collections
-- old keyboard song libraries
-- messy folders collected over many years
-- floppy-era MIDI archives and emulator workflows
-- musicians who want to listen, compare and sort files safely
-- collectors who want to preserve original source archives while building a cleaner library
+- [Download Windows Setup.exe 0.3.0](https://musicnotehaven.ethercomm.eu/downloads/windows-setup/)
+- [Download Linux `.deb` 0.3.0 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
+- [Verify SHA-256 checksums](https://musicnotehaven.ethercomm.eu/downloads/SHA256SUMS.txt)
+- [Read the release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
+- [Open the user manual](https://musicnotehaven.ethercomm.eu/manual/)
 
-## Main workflow areas
+The Windows preview is currently unsigned, so Windows SmartScreen or antivirus reputation warnings may appear. Verify the published SHA-256 checksum before installing.
 
-- **Index and Search** — scan `.mid`, `.midi` and `.kar` files and make large archives searchable.
-- **File Detail** — inspect individual files and review available metadata and analysis information.
-- **Review Queue** — stage uncertain files for controlled review instead of moving them blindly.
-- **Library Organizer** — build safer copy-oriented organization plans.
-- **Organized Library** — browse the cleaner verified library created from safe copy workflows.
-- **Playback Queue** — prepare longer listening sessions and track what has already been played.
-- **Disk Image Creator** — prepare selected MIDI/KAR files for floppy-style `.img` disk images.
-- **IMG Viewer** — inspect supported `.img` disk images.
-- **Maintenance Reports** — preview and export read-only reports before risky archive operations.
+## What MIDI Manager does
 
-## Disk image workflows
+- **Source Index and Search** — inventory large MIDI/KAR archives and make them searchable.
+- **Deep MIDI Analysis** — analyze technical, quality, protocol and device information with safe stop-and-resume support.
+- **File Detail and Review Queue** — inspect individual files and stage uncertain items for controlled review.
+- **Library Organizer** — prepare and execute copy-first organization plans while preserving the original source archive.
+- **Organized Library** — browse, inspect, play and mark favorites in the cleaner managed library.
+- **Playback Queue** — prepare longer listening sessions and manage played, active and liked items.
+- **Floppy Image Studio** — create and inspect FAT12 `.img` disk images, preserve long names with sidecar manifests and generate PDF, CSV and JSON catalog reports.
+- **Local-first workflow** — MIDI/KAR files remain on the user's own computer, NAS or storage device.
 
-MIDI Manager includes disk image workflows for musicians and collectors who still work with vintage keyboards, floppy emulators or preserved floppy-era MIDI collections.
+## Current public release and ongoing development
 
-The Disk Image Creator is intended to support:
+The current public download is **version 0.3.0** for Windows and Linux. Development continues privately after each public build, so newer source-only work is not automatically part of the downloadable 0.3.0 installers.
 
-- floppy-style `.img` creation
-- 720 KB disk image format
-- 1.44 MB disk image format
-- basket-based file selection before image creation
-- output to a user-configured Generated files folder
-- inspection with the IMG Viewer
-
-## Website, manual and early access
-
-The official website is the public source of truth for product information, screenshots, manual updates, release status, early access details and pricing:
+The official website is the public source of truth for the latest downloads, release notes, manuals, licensing information and known limitations:
 
 **https://musicnotehaven.ethercomm.eu**
 
-Public manual:
+## Newsletter and Early Access
 
-**https://musicnotehaven.ethercomm.eu/manual/**
+- [Newsletter](https://musicnotehaven.ethercomm.eu/newsletter/) — product updates, preview announcements and practical MIDI archive information.
+- [Early Access](https://musicnotehaven.ethercomm.eu/early-access/) — a separate interest list for future release updates and planned early-adopter licensing information.
 
-Early access:
-
-**https://musicnotehaven.ethercomm.eu/early-access/**
-
-Joining early access is not a purchase. It is an interest list for release updates and early adopter information.
+Joining either list is not a purchase and does not create a payment obligation.
 
 ## Source code
 
 The MIDI Manager source code is private.
 
-This public GitHub profile is for product information, public links and announcements only. It does not contain application source code, licensing code, admin tools or internal development documentation.
+This public GitHub profile contains product information, public links and announcements only. It does not contain application source code, private licensing material, administration tools or internal development documentation.
