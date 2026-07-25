@@ -2,48 +2,48 @@
 
 **MusicNote Haven** creates practical local desktop software for musicians, keyboard players, MIDI collectors and digital music archivists.
 
-Our first application is **MusicNote Haven MIDI Manager**: a Windows and Linux desktop application for indexing, searching, reviewing, playing, organizing and preserving `.mid`, `.midi` and `.kar` collections.
+Our first application is **MusicNote Haven MIDI Manager** for Windows and Linux: index, analyze, search, play, safely organize and preserve `.mid`, `.midi` and `.kar` collections, including floppy/Gotek IMG workflows.
 
-## Download MIDI Manager 0.3.0
+## MIDI Manager 0.9.0 release candidate
 
-The **MusicNote Haven MIDI Manager 0.3.0 public preview is available now**.
+The functionally frozen **0.9.0 Windows/Linux test release is available now**. Feedback from a controlled group of external testers will be used to remove genuine release blockers before version 1.0.0.
 
-- [Download Windows Setup.exe 0.3.0](https://musicnotehaven.ethercomm.eu/downloads/windows-setup/)
-- [Download Linux `.deb` 0.3.0 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
+- [Download Windows Setup.exe 0.9.0](https://musicnotehaven.ethercomm.eu/downloads/windows-setup/)
+- [Download Linux `.deb` 0.9.0 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
 - [Verify SHA-256 checksums](https://musicnotehaven.ethercomm.eu/downloads/SHA256SUMS.txt)
-- [Read the release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
+- [Read the 0.9.0 release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
+- [Join the protected tester programme](https://musicnotehaven.ethercomm.eu/founding-testers/)
 - [Open the user manual](https://musicnotehaven.ethercomm.eu/manual/)
 
-The Windows preview is currently unsigned, so Windows SmartScreen or antivirus reputation warnings may appear. Verify the published SHA-256 checksum before installing.
+Accepted artifacts:
+
+- Windows: `MusicNote-Haven-MIDI-Manager-Setup-0.9.0.exe` — `75ea885abcba47cb9372ae6f6f982353a75998ea7d5aeb4d15dade32d8909583`
+- Linux: `musicnote-haven-midi-manager_0.9.0-1_amd64.deb` — `3a3dfdbb0112b3b60ca49c92010caefedb2c23503e0bdb5287c8e38cdf03e0e4`
+- Verified app source: `48c620068626e3df7b4b8da37b3d7d8740cf7a27`
+
+The Windows installer is unsigned, so SmartScreen, Defender, browser or antivirus reputation warnings may appear. Download only from the official website and verify the published checksum.
 
 ## What MIDI Manager does
 
-- **Source Index and Search** — inventory large MIDI/KAR archives and make them searchable.
-- **Deep MIDI Analysis** — analyze technical, quality, protocol and device information with safe stop-and-resume support.
-- **File Detail and Review Queue** — inspect individual files and stage uncertain items for controlled review.
-- **Library Organizer** — prepare and execute copy-first organization plans while preserving the original source archive.
-- **Organized Library** — browse, inspect, play and mark favorites in the cleaner managed library.
-- **Playback Queue** — prepare longer listening sessions and manage played, active and liked items.
-- **Floppy Image Studio** — create and inspect FAT12 `.img` disk images, preserve long names with sidecar manifests and generate PDF, CSV and JSON catalog reports.
-- **Local-first workflow** — MIDI/KAR files remain on the user's own computer, NAS or storage device.
+- Incremental Source Index and resumable Deep MIDI Analysis.
+- Search, File Detail, Failed Analysis Review and device information.
+- Copy-first Library Organizer with controlled planning, verification and recovery safeguards.
+- Physical Organized Library, favorites and managed Playback Queue workflows.
+- Five-language first-run setup and cross-platform path handling.
+- Floppy Image Studio with machine profiles, FAT12 image creation/inspection, verified existing-IMG editing, USB/Gotek export planning and PDF/CSV/JSON reports.
+- Signed license validation with offline grace and verified current-device release/transfer.
+- Verified database backup, retention, migration rollback and package provenance.
 
-## Current public release and ongoing development
+MIDI Manager runs locally. It does not upload the user's MIDI/KAR collection to the MusicNote Haven website.
 
-The current public download is **version 0.3.0** for Windows and Linux. Development continues privately after each public build, so newer source-only work is not automatically part of the downloadable 0.3.0 installers.
+## Tester programme and Early Access
 
-The official website is the public source of truth for the latest downloads, release notes, manuals, licensing information and known limitations:
+Confirmed Early Access members can request a personal, expiring test link. The protected form is not an open spam endpoint. General newsletter consent is separate and optional. Up to 10 independent testers whose completed reports are manually reviewed as honest and genuinely useful may receive a free Personal licence for the 1.0 generation; signup alone never qualifies.
 
-**https://musicnotehaven.ethercomm.eu**
-
-## Newsletter and Early Access
-
-- [Newsletter](https://musicnotehaven.ethercomm.eu/newsletter/) — product updates, preview announcements and practical MIDI archive information.
-- [Early Access](https://musicnotehaven.ethercomm.eu/early-access/) — a separate interest list for future release updates and planned early-adopter licensing information.
-
-Joining either list is not a purchase and does not create a payment obligation.
+- [Tester programme](https://musicnotehaven.ethercomm.eu/founding-testers/)
+- [Early Access](https://musicnotehaven.ethercomm.eu/early-access/)
+- [Newsletter](https://musicnotehaven.ethercomm.eu/newsletter/)
 
 ## Source code
 
-The MIDI Manager source code is private.
-
-This public GitHub profile contains product information, public links and announcements only. It does not contain application source code, private licensing material, administration tools or internal development documentation.
+The MIDI Manager source code is private. This public GitHub profile contains product information, public links and announcements only; it does not contain application source, private licensing material, administration tools or internal development documentation.
