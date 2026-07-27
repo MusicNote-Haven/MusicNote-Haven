@@ -12,7 +12,7 @@ The functionally frozen **0.9.0 Windows/Linux test release is available now**. F
 - [Download Linux `.deb` 0.9.0 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
 - [Verify SHA-256 checksums](https://musicnotehaven.ethercomm.eu/downloads/SHA256SUMS.txt)
 - [Read the 0.9.0 release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
-- [Join the protected tester programme](https://musicnotehaven.ethercomm.eu/founding-testers/)
+- [Join the protected tester programme](https://musicnotehaven.ethercomm.eu/midi-manager-testers/)
 - [Open the user manual](https://musicnotehaven.ethercomm.eu/manual/)
 
 Accepted artifacts:
@@ -40,7 +40,7 @@ MIDI Manager runs locally. It does not upload the user's MIDI/KAR collection to 
 
 Confirmed Early Access members can request a personal, expiring test link. The protected form is not an open spam endpoint. General newsletter consent is separate and optional. Up to 10 independent testers whose completed reports are manually reviewed as honest and genuinely useful may receive a free Personal licence for the 1.0 generation; signup alone never qualifies.
 
-- [Tester programme](https://musicnotehaven.ethercomm.eu/founding-testers/)
+- [Tester programme](https://musicnotehaven.ethercomm.eu/midi-manager-testers/)
 - [Early Access](https://musicnotehaven.ethercomm.eu/early-access/)
 - [Newsletter](https://musicnotehaven.ethercomm.eu/newsletter/)
 
