@@ -4,41 +4,48 @@
 
 Our first application is **MusicNote Haven MIDI Manager** for Windows and Linux: index, analyze, search, play, safely organize and preserve `.mid`, `.midi` and `.kar` collections, including floppy/Gotek IMG workflows.
 
-## MIDI Manager 0.9.0 release candidate
+## MIDI Manager 0.9.5 — Road to 1.0
 
-The functionally frozen **0.9.0 Windows/Linux test release is available now**. Feedback from a controlled group of external testers will be used to remove genuine release blockers before version 1.0.0.
+**Linux 0.9.5-1 is available now.** The Windows 0.9.5 package has passed real packaged-runtime testing, but its public installer is **pending code signing** for Windows Smart App Control compatibility.
 
-- [Download Windows Setup.exe 0.9.0](https://musicnotehaven.ethercomm.eu/downloads/windows-setup/)
-- [Download Linux `.deb` 0.9.0 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
-- [Verify SHA-256 checksums](https://musicnotehaven.ethercomm.eu/downloads/SHA256SUMS.txt)
-- [Read the 0.9.0 release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
+Both platform builds come from the same verified application source commit:
+
+`71928dab173851b804b87fd72ba70d1b5585cb97`
+
+- [Download Linux `.deb` 0.9.5-1 for Ubuntu/Kubuntu 24.04 amd64](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
+- [Check Windows 0.9.5 release status](https://musicnotehaven.ethercomm.eu/downloads/#windows-release-status)
+- [Verify current public SHA-256 checksums](https://musicnotehaven.ethercomm.eu/downloads/SHA256SUMS.txt)
+- [Read the complete 0.9.5 release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
 - [Join the protected tester programme](https://musicnotehaven.ethercomm.eu/midi-manager-testers/)
 - [Open the user manual](https://musicnotehaven.ethercomm.eu/manual/)
 
-Accepted artifacts:
+Current public Linux artifact:
 
-- Windows: `MusicNote-Haven-MIDI-Manager-Setup-0.9.0.exe` — `75ea885abcba47cb9372ae6f6f982353a75998ea7d5aeb4d15dade32d8909583`
-- Linux: `musicnote-haven-midi-manager_0.9.0-1_amd64.deb` — `3a3dfdbb0112b3b60ca49c92010caefedb2c23503e0bdb5287c8e38cdf03e0e4`
-- Verified app source: `48c620068626e3df7b4b8da37b3d7d8740cf7a27`
+- `musicnote-haven-midi-manager_0.9.5-1_amd64.deb`
+- 74,159,456 bytes
+- SHA-256: `b858d635592b2163d8f8a0f1ded5115d396503f223bf0bfe0d407c5226bdb70a`
 
-The Windows installer is unsigned, so SmartScreen, Defender, browser or antivirus reputation warnings may appear. Download only from the official website and verify the published checksum.
+The unsigned Windows 0.9.5 installer is **not** offered as a public download. Users are not asked to disable Windows security controls to install MIDI Manager.
 
-## What MIDI Manager does
+## What changed in 0.9.5
 
-- Incremental Source Index and resumable Deep MIDI Analysis.
-- Search, File Detail, Failed Analysis Review and device information.
-- Copy-first Library Organizer with controlled planning, verification and recovery safeguards.
-- Physical Organized Library, favorites and managed Playback Queue workflows.
-- Five-language first-run setup and cross-platform path handling.
-- Floppy Image Studio with machine profiles, FAT12 image creation/inspection, verified existing-IMG editing, USB/Gotek export planning and PDF/CSV/JSON reports.
-- Signed license validation with offline grace and verified current-device release/transfer.
-- Verified database backup, retention, migration rollback and package provenance.
+- Five-language runtime interface and guidance across English, Dutch, German, French and Spanish.
+- Faster database-backed Organized Library browsing for large collections, with incremental loading, search and selection kept responsive.
+- Clearer analysis counts, failed-analysis review and recovery guidance.
+- MIDI Files by Device with paging, MIDI Type 0/1 filtering and GM2 detection/filtering.
+- Clearer Library Organizer controls and safer Trial/Free guidance: large source folders can be indexed and analyzed; the 100-file limit applies to Organized Library output.
+- Database-backed Playback Queue with adaptive command rows and improved large-library behavior.
+- Responsive Dashboard/table layouts, resizable columns and clearer status presentation.
+- Hardened cross-platform path handling, package privacy/provenance checks and database safety.
+- Floppy Image Studio, FAT12/IMG and USB/Gotek workflows retain conservative, report-first safety behavior.
 
 MIDI Manager runs locally. It does not upload the user's MIDI/KAR collection to the MusicNote Haven website.
 
-## Tester programme and Early Access
+## Tester programme and Road to 1.0
 
-Confirmed Early Access members can request a personal, expiring test link. The protected form is not an open spam endpoint. General newsletter consent is separate and optional. Up to 10 independent testers whose completed reports are manually reviewed as honest and genuinely useful may receive a free Personal licence for the 1.0 generation; signup alone never qualifies.
+Current controlled testing now drives the final path to **Windows 1.0.0** and **Linux 1.0.1**. During this phase, genuine release blockers and useful tester evidence guide the remaining work.
+
+Confirmed Early Access members can request a personal, expiring test link. General newsletter consent is separate and optional. Up to 10 independent testers whose completed reports are manually reviewed as honest and genuinely useful may receive a free Personal licence for the 1.0 generation; signup alone never qualifies.
 
 - [Tester programme](https://musicnotehaven.ethercomm.eu/midi-manager-testers/)
 - [Early Access](https://musicnotehaven.ethercomm.eu/early-access/)
