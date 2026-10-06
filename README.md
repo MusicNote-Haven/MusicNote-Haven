@@ -2,50 +2,54 @@
 
 **MusicNote Haven** creates practical local desktop software for musicians, keyboard players, MIDI collectors and digital music archivists.
 
-Our first application is **MusicNote Haven MIDI Manager** for Windows and Linux: index, analyze, search, review, play, safely organize and preserve `.mid`, `.midi` and `.kar` collections, including floppy/Gotek IMG workflows.
+Our first application is **MusicNote Haven MIDI Manager** for Windows and Linux.
 
-## MIDI Manager — current releases
+## MIDI Manager 1.3.0 - current release
 
 | Platform | Version | Status |
 |---|---:|---|
-| Windows | **1.2.1** | Microsoft Store package `1.2.1.0` available |
-| Linux | **1.2.2** | Verified Ubuntu/Kubuntu 24.04 amd64 package `1.2.2-1` available |
+| Windows | **1.3.0** | Microsoft Store package `1.3.0.0` available |
+| Linux | **1.3.0** | Verified Debian package `1.3.0-1` for Ubuntu 26.04 LTS amd64 available |
 
-Windows and Linux are independently versioned.
+Both public packages come from accepted clean source `435fd675b18eac2e1b3efef76ba59e50ec424052`.
 
 - [Downloads](https://musicnotehaven.ethercomm.eu/downloads/)
 - [Windows in Microsoft Store](https://musicnotehaven.ethercomm.eu/downloads/windows-store/)
+- [Linux download](https://musicnotehaven.ethercomm.eu/downloads/linux-deb/)
 - [Release notes](https://musicnotehaven.ethercomm.eu/release-notes/)
 - [User manual](https://musicnotehaven.ethercomm.eu/manual/)
-- [Complete MIDI Manager 1.2 workflow video](https://youtu.be/5q9JugTzUL0)
-- [Newsletter](https://musicnotehaven.ethercomm.eu/newsletter/)
+- [Recorded MIDI Manager 1.2 workflow video](https://youtu.be/5q9JugTzUL0)
 
 ### Verified Linux artifact
 
-- `musicnote-haven-midi-manager_1.2.2-1_amd64.deb`
-- 69,530,872 bytes
-- SHA-256: `f00271a379b8f522455fa1cbf38dcc0fb9d80fc34fe98e6ac97429a09901c398`
+- `musicnote-haven-midi-manager_1.3.0-1_amd64.deb`
+- 78,246,750 bytes
+- SHA-256: `9cf6b403f6325e774ec43abd77c595c047c4ff392a6d255d8c827fe047c58c24`
 
 ### Windows Store package
 
-- App version: `1.2.1`
-- Store package version: `1.2.1.0`
+- App version: `1.3.0`
+- Store package version: `1.3.0.0`
 - Store ID: `9P9PKX8XNDWF`
-- Submitted package SHA-256: `7a511fe8a6f1ed3bee1d9f67db39b997d4f43b385f74af4712a1f0474e90fbec`
+- Submitted package SHA-256: `abec10f30ce086532b4028069afb98e1032f508d50db2ae074e735b8bf80319c`
 
 ## Current highlights
 
-- Durable Source Index and resumable Technical MIDI Scan.
+- Durable indexing and resumable Technical MIDI Scan.
 - Recognition 2.0 with evidence/provenance, review and re-evaluation.
-- Safe manual Artist/Title/Filename correction.
-- Incremental copy-first Organizer and searchable Organized Library.
-- MIDI Player and Playback Queue.
-- Library Health and guarded archive/maintenance workflows.
-- Floppy Image Studio and IMG Viewer.
-- Local-first operation: MIDI/KAR collections stay on storage controlled by the user.
-- English, Dutch, German, French and Spanish coverage.
+- Filename + embedded MIDI/KAR evidence with offline reference first.
+- Clearer truthful progress for long analysis jobs.
+- Safe manual Artist/Title/Filename correction and stronger rename/Re-evaluate collision handling.
+- Copy-first Organizer and searchable Organized Library.
+- MIDI Player, Playback Queue, Library Health and Floppy Image Studio.
+- Lifetime Version 1.x Personal/Professional licensing with offline use after successful local verification.
+- Local-first operation and five-language coverage.
 - Tested with libraries approaching 200,000 MIDI/KAR files.
+
+## Privacy
+
+If the optional Online Artist & Song Discovery fallback is needed, only candidate artist/title text is sent; MIDI/KAR contents, local paths, filenames and profile data are not sent.
 
 ## Source code
 
-The MIDI Manager application source repository is private. This public GitHub profile contains product information, public links and announcements only; it does not contain private licensing material, administration tools or internal development data.
+The MIDI Manager application source repository is private. This public GitHub profile contains product information, public links and announcements only.
